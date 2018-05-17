@@ -58,11 +58,11 @@ namespace Cartas
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "383320827454-benn4v9n66d24co3ddtr9mf81n1051pm.apps.googleusercontent.com",
+                ClientSecret = "iEBgvdVprLYCPEaZLuA3usXT"
+            });
         }
     }
 }

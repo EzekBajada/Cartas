@@ -26,5 +26,6 @@ namespace Cartas.Controllers
 
             return View();
         }
+        
     }
 }
